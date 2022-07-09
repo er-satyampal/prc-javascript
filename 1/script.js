@@ -5,7 +5,7 @@ document.getElementById('main-box').style.lineSpace= '20px';
 document.getElementById('main-box').style.backgroundColor = 'aqua';
 document.getElementById('main-box').style.height = '100px';
 document.getElementById('main-box').style.width = '300px';
-document.getElementById('main-box').style.border= 'solid, 1px, black';
+document.getElementById('main-box').style.border= 'solid 1px black';
 
 
 
