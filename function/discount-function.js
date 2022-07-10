@@ -1,5 +1,5 @@
 function discountfun(a , b){
-    discountvalue = (a * b)/100;
+    discountvalue = (a * b)/100 ;
     return discountvalue;
 }
   
