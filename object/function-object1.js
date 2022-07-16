@@ -11,12 +11,12 @@ document.getElementById('box').innerHTML = man.final_result();*/
 
 
 
-//const a = {
-//    b : 3,
-//};
-//document.getElementById('box').innerHTML = a.b;
+const a = {
+    b : 3,
+};
+document.getElementById('box').innerHTML = a.b;
 
-
+/*
 const a = {
     b : 3,
     final : function () {
@@ -24,4 +24,4 @@ const a = {
     }
 
 };
-document.getElementById('box').innerHTML = a.final;
+document.getElementById('box').innerHTML = a.final;*/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button,
+        a {
+            margin-bottom: 20px;
+            margin-left: 47%;
+        }
+    </style>
+
+
+    <script>
+
+        function openNewWithTabReplacement(){
+            location.replace = 'html.html';
+
+            alert("IT WORKS");
+        }
+    </script>
+</head>
+
+<body>
+    <button style="margin-top:20%" onclick="window.print()">Print-Page</button>
+    <br>
+    <button onclick="window.print()">Print-Page</button>
+    <br>
+    <button onclick="window.location = 'https://itsbhm.org';">Open ITSBHM Education</button>
+    <br>
+    <button onclick="openNewWithTabReplacement()">Open ITSBHM Group</button>
+    <br>
+    <a onclick="window.print()" href="javascript:void(0)">Click Here to Go</a>
+</body>
+
+</html>
