@@ -1,2 +1,2 @@
 let car = "mycar";
-document.getElementById('bucket').innerHTML = car + " "+typeof car;
+document.getElementById('bucket').innerHTML = car + " "+ typeof car;

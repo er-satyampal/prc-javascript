@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <p id="box"></p>
 
-    <button type="button" onclick="document.getElementById('box').innerHTML = Date();">Click on me</button>
-    <p>In this page we are going to learn about the javasscript Event</p>
- 
-    <p id="box1"></p>
-    <script src="js-event.js"></script>
+<body>
+    <p id="clickToGetTime"></p>
+    <button type="button" onclick="document.getElementById('clickToGetTime').innerHTML = Date();">Click To Get
+        Time</button>
+
+    <br>
+    <hr>
+    <br>
+    
+    <p id="my-select-car"></p>
+
+    <select id="myCars" onchange="selectCar()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Volvo">Volvo</option>
+    </select>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <button id="bg-clr" onclick="changeBgColor()"> Change Background Color </button>
+
+    <button id="bg-clr-rm" onclick="clearBgColor()"> Clear Background Color </button>
+
+
+    <script>
+
+        function selectCar() {
+            var x = document.getElementById("myCars").value;
+            document.getElementById("my-select-car").innerHTML = "My selected car is: " + x;
+        }
+
+
+        function changeBgColor(){
+            document.body.style.backgroundColor = "yellow";
+        }
+
+        function clearBgColor(){
+            document.body.style.backgroundColor = "#fff";
+        }
+
+    </script>
 </body>
 </html>
