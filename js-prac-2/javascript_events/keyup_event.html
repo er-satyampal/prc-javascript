@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            keyup-event in js
+        </title>
+    </head>
+    <body>
+        <p>In this html page you will learn about the keyup-event.</p>
+        User name: <input type="text" onkeyup="myfunction()" id="myinput">
+        <script>
+            function myfunction(){
+                let x = document.getElementById("myinput");
+                x.value = x.value.toUpperCase();
+            }
+        </script>
+    </body>
+</html>

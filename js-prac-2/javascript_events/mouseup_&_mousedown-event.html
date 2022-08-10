@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            mouseup & mousedown - event in js
+        </title>
+    </head>
+    <body>
+        <p onmouseup="mouseupfun(this)"   onmousedown="mousedownfun( this)">
+            <span>
+                    This is the dommy text which I have written in this html Page
+                So please, mouse-up and mouse down ove this html dummy text
+            </span>
+        </p>
+        <script>
+            function mouseupfun(x){
+                x.style.color ="aqua";
+            }
+            function mousedownfun(y){
+                y.style.color ="red";
+            }
+        </script>
+    </body>
+</html>

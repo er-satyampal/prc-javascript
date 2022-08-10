@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>
+        sizing-event in js
+    </title>
+</head>
+
+<body onresize="myfunction()">
+    <script>
+        function myfunction() {
+            var x = window.outerWidth;
+            var y = window.outerHeight;
+            var txt = "Window size: width=" + x + ", height=" + y;
+            document.getElementById("bucket").innerHTML = txt;
+        }
+    </script>
+        <p>this is a text</p>
+    <p id="bucket"></p>
+
+</body>
+
+</html>

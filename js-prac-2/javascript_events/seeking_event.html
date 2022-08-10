@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>In This html page we will learn about the Seeking-event in the javascript </p>
+<video controls id="myid">
+    <source src="../media/videos/mov_bbb.mp4" type="video/ogg">
+    <source src="../media/videos/mov_bbb.mp4" type="video/ampg">
+    <source src="../media/videos/mov_bbb.mp4" type="video/acg">
+    <source src="../media/videos/mov_bbb.mp4" type="video/mp4">
+</video>
+<script>
+    document.getElementById("myid").addEventListener("seeking", myfunction);
+    function myfunction(){
+        alert("You are seeking with this video");
+    }
+</script>
+</body>
+</html>

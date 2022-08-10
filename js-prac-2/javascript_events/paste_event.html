@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> 
+            paste-event in js
+        </title>
+    </head>
+    <body>
+        <p><span>
+            In this html page you will learn about the paste even in javascript..
+            So may be you can easily understand what want I want to be share with  you...
+            In this I have used my logics and I written that's whole code..
+        </span></p>
+        paste here: <input type="text" id="userinput" onpaste="myfunction()" value=" ">
+        <script>
+            function myfunction(){
+                let x = document.getElementById("userinput").value;
+                document.getElementById("bucket").innerHTML="You have pasted this:"  + " " + x;
+            }
+        </script>
+        <p id="bucket"></p>
+    </body>
+</html>

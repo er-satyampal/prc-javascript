@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            stalled-event in js
+        </title>
+    </head>
+    <body>
+        <video controls id="myid">
+            <source src="../media/videos/mov_bbb.mp4" type="video/ogg">
+            <source src="../media/videos/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <script>
+            document.getElementById("myid").addEventListener("stalled" , myfunction);
+            function myfunction(){
+                alert("You are stalling the video...");
+            }
+        </script>
+    </body>
+</html>

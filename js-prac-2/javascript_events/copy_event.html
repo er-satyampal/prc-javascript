@@ -1,0 +1,20 @@
+<html>
+<head>
+
+    <title>
+        Copy-Event in javascript
+    </title>
+
+ </head>
+ <body>
+    <p>In this HTML page we will create a Copy-Javascript_Event..</p>
+    <input type="text" id="myselect" oncopy="myfunction()" value=" ">
+       <script>
+        function myfunction() {
+            let x = document.getElementById("myselect").value;
+            document.getElementById('bucket').innerHTML = "You have copied this text" + " " + x;
+        }
+     </script>
+    <p id="bucket"></p>
+</body>
+</html>

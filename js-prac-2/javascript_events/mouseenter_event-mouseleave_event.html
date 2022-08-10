@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            mouseenter-event & mouseleave-event in js
+        </title>
+    </head>
+    <body>
+        <p>
+            In this html page you will learn about the mouse-enter-event..
+        </p>
+        <img src="../media/images/image2.jpg" alt="Sorry this media is not availble" onmouseenter="myfirstfunction(this)"
+         onmouseleave="mysecfunction(this)">
+
+
+        <script>
+            function myfirstfunction(x){
+                x.style.height="300px";
+                x.style.width ="400px";
+            }
+
+            function mysecfunction(y){
+                y.style.height="100px";
+                y.style.width="120px";
+            }
+        </script>
+
+    </body>
+</html>

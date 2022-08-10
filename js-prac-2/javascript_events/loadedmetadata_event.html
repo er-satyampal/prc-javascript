@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            loadmetadata-event in js 
+        </title>
+    </head> 
+<body> 
+
+<video controls onloadedmetadata="myfunction()">
+  <source src="../media/videos/mov_bbb.mp4" type="video/mp4">
+  <source src="../media/images/image1.jpg" type="image/jpg">
+  
+</video>
+
+
+<script>
+function myfunction() {
+  alert("Meta data for video loaded");
+}
+</script>
+
+</body> 
+</html>

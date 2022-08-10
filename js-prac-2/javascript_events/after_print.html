@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onafterprint="myFunction()">
+    <p>this is print page.</p>
+    <button type="submit" onclick="window.print()">click me</button>
+
+    <script>
+        myFunction(alert("Printing ... in progress."));
+    </script>
+</body>
+</html>

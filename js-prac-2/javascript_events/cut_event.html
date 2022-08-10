@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Cut-Event in js</title>
+    </head>
+    <body>
+        <p>This is a Cut-Event In the javascript</p>
+      
+        <input type="text" oncut="myfunction()" id="myselect" placeholder="write the text" value="">
+        <script>
+            function myfunction(){
+                let x = document.getElementById('myselect').value;
+                document.getElementById("bucket").innerHTML = "You have cut this text " + "  " + x ;
+            }
+        </script>
+
+<p id="bucket"></p>
+    </body>
+</html>

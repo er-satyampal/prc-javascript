@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            seeked-event in js
+        </title>
+    </head>
+    <body>
+        <p>In This javascript page we will learn about the seeked-event in the javascript</p>
+        <video controls id="mydiv">
+            <source src="../media/videos/mov_bbb.mp4" type="video/ogg">
+            <source src="../media/videos/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <script>
+            document.getElementById("mydiv").addEventListener("seeked", myfunction);
+            function myfunction(){
+                alert("Yor are seeking the video"); 
+            }
+        </script>
+    </body>
+</html>

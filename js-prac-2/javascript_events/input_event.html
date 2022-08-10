@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            input-event in js
+        </title>
+    </head>
+    <body>
+    <p>In this HTML page we will Learn about the Input_Event </p>
+    <input type="text" id="myinput" oninput="myfunction()" value="">
+    <script>
+        function myfunction(){
+            let x = document.getElementById("myinput").value;
+            document.getElementById("bucket").innerHTML = "You have writen inside the box :" + "  "  +  x  ;
+        }
+    </script>
+    <p id="bucket"></p>
+    </body>
+</html>

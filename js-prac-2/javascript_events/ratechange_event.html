@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Ratechange-event in js
+        </title>
+    </head>
+    <body>
+        <video height="140px" controls onratechange="myfunction()" id="letablevalue">
+        <source src="../media/videos/mov_bbb.mp4" type="video/ogg">
+        <source src="../media/videos/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <button type="button" onclick="ratechangefun()"> Chane your video rate </button>
+    <script>
+        let x = document.getElementById("letablevalue");
+        function ratechangefun(
+        ){
+            x.playbackRate=0.5;
+        }
+        function myfunction(){
+          alert("Your play speed has beed changed succesfully..")
+        }
+    </script>
+    </body>
+</html>

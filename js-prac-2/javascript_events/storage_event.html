@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            storage-event in js
+        </title>
+    </head>
+<body>
+
+
+
+<button onclick="changeValue()">Change a Storage Item</button>
+
+<p id="demo"></p>
+
+<script>
+window.addEventListener("storage", myFunction);
+
+function myFunction(event) {
+  document.getElementById("demo").innerHTML = "A change was made in the storage area";
+}
+
+function changeValue() {
+  var x = window.open("", "myWindow", "width=200,height=100");
+  x.localStorage.setItem("mytime", Date.now());
+  x.close();
+}
+</script>
+</body>
+</html>

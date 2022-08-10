@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="myDIV"></div>
+
+<script>
+
+
+if(typeof(EventSource) !== "undefined") {
+  var source = new EventSource("/html/demo_sse.php");
+  
+  source.onmessage = function(event) {
+  
+    document.getElementById("myDIV").innerHTML += event.data + "<br>";
+  };
+
+} 
+</script>
+
+</body>
+</html>
