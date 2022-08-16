@@ -7,7 +7,7 @@ document.getElementById("processForm").addEventListener("click", function (e) {
     let state = document.getElementById("state").value;
 
 
-    if ((first_name.length == "") || (first_name.length >= 13)) {
+    if ((first_name.length == "") || (first_name.length >= 1)) {
         document.getElementById("msg").innerHTML = "Condition for first name does not met";
 
         document.getElementById("fname").addEventListener("keyup", function () {
