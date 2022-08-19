@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Slicing-Array</p>
+    <p id="bucket"></p>
+    <p id="bucket1"></p>
+    
+    <script>
+    const fruits = ["Mango", "pear", "Apple", "orange"];
+    document.getElementById("bucket").innerHTML = fruits;
+    
+    fruits.splice(2, 0, "Lemon", "Kiwi");
+    document.getElementById("bucket1").innerHTML = fruits;
+    </script>
+    
+    
+</body>
+</html>
