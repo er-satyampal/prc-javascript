@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Date-formate.
+        </title>
+    </head>
+    <body>
+        <p id="bucket"></p>
+        <script>
+
+            const d = new Date();
+            
+            //Date
+            let day = d.getDate();
+            let month = d.getMonth()+1;
+            let year = d.getFullYear();
+
+            // Time
+            let h = d.getHours();
+            let m = d.getMinutes();
+            let s = d.getSeconds();
+
+
+            let md = h >= 12 ? 'PM' : 'AM';
+
+
+            function getNewTime(day, month, year, h, m, s, md){
+                console.log(day+"-"+month+"-"+year +h+ ":" +m+ ":" +s+ " " + md)
+            }
+
+            setInterval(()=>{
+                getNewTime(day, month, year, h, m, s, md);
+            }, 1000)
+        </script>
+      
+    </body>
+</html>
