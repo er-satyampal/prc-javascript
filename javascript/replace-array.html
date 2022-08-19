@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="bucket"></p>
+    <p id="bucket1"></p>
+    <pre>
+        Array indexes start with 0:
+
+[0] is the first array element
+[1] is the second
+[2] is the third ...
+
+ we have given these value already..
+ but still we wants to be create a new intities at the place of "0".
+ then previous value will be replaced... 
+       (if we don't have given the pre-value then..
+       it will crealte a new work space on that place. )
+
+    </pre>
+        <script>
+        let fruits = ["Mango", "Banana", "Grapes"];
+        document.getElementById("bucket").innerHTML = fruits;
+        fruits[1] ="nana";
+        document.getElementById("bucket1").innerHTML = fruits;
+        </script>
+    
+</body>
+</html>
