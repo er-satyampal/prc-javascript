@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            month-date
+        </title>
+    </head>
+    <body>
+        <p>
+            <pre>
+                Note: JavaScript counts months from 0 to 11:
+
+                 January = 0.
+
+                 December = 11.
+                 then : We can easily say that "month of january will be start from 0.
+                 and  untill decemeber will be end at at 11...."
+            </pre>
+        </p>
+
+        <p id="bucket"></p>
+        <script>
+            //Date
+        const d = new Date();
+        
+        date = d.getDate();
+        month = d.getMonth();
+        year = d.getFullYear();
+
+        document.getElementById("bucket").innerHTML = month+1;
+        </script>
+
+    </body>
+</html>
