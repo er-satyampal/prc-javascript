@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The ISO format follows a strict standard in JavaScript.
+
+        The other formats are not so well defined and might be browser specific.</h1>
+
+    <h2>JavaScript toISOString()</h2>
+    <p>The toISOString() method converts a date to a date string, using the ISO standard format:</p>
+<p id="bucket"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("bucket").innerHTML = d.toISOString();
+    </script>
+</body>
+</html>
