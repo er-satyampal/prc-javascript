@@ -1,5 +1,4 @@
 document.getElementById('main-box').style.fontSize = '15px';
-
 document.getElementById('main-box').style.lineSpace= '20px';
 
 document.getElementById('main-box').style.backgroundColor = 'aqua';
