@@ -1,5 +1,5 @@
 
-#For Loop:
+##For Loop:
 
 For loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 
@@ -17,7 +17,7 @@ console.log(text);
 
 ---
 
-#For In Loop:
+##For In Loop:
 
 For-in loop is a basic control statement that allows you to loop through the properties of an object.
 
