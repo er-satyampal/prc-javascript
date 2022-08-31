@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> In this html page we will learn about the for-in-loop.</p>
+    <p id="bucket"></p>
+    <script>
+        const me = ["Satyam", "Pal", 17,11,13];
+        txt = "";
+        for ( let x in me){
+            txt +=me[x]+" "+ "</br>";
+        }
+        document.getElementById("bucket").innerHTML= txt;
+    </script>
+</body>
+</html>
