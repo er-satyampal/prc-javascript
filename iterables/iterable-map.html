@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="bucket"></p>
+    
+<script>
+
+    const fruits = new Map([
+      ["Toy-1", 500],
+      ["Toy-2", 300],
+      ["Toy-3", 200]
+    ]);
+    
+    let text = "";
+
+    for (const x of fruits) {
+      text += x + "<br>";
+    }
+    
+    document.getElementById("bucket").innerHTML = text;
+    </script>
+</body>
+</html>
