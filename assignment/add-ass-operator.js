@@ -1,3 +1,3 @@
-let a = 4;
-a += 8;
-document.getElementById('bucket').innerHTML = a;
+let me = 4;
+me += 8;
+document.getElementById('bucket').innerHTML = me;
