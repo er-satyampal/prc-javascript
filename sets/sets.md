@@ -4,7 +4,7 @@ Each value can only occur once in a Set.
 
 
 
-```Essential Set Methods
+```Essential Set Methods;-
 Method      	Description
 new Set()	    Creates a new Set
 add()	        Adds a new element to the Set
