@@ -30,3 +30,9 @@ The data type of a date is object
 The data type of null is object
 The data type of an undefined variable is undefined *
 The data type of a variable that has not been assigned a value is also undefined *.
+
+
+
+
+importan - Notes:--
+  You cannot use typeof to determine if a JavaScript object is an array (or a date).
