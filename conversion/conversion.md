@@ -1,9 +1,9 @@
-Converting Strings to Numbers
+#Converting Strings to Numbers
 Converting Numbers to Strings
 Converting Dates to Numbers
 Converting Numbers to Dates
 Converting Booleans to Numbers
-Converting Numbers to Booleans
+Converting Numbers to Booleans:
 
 
 
@@ -15,9 +15,9 @@ Converting Numbers to Booleans
 
 
 
-JavaScript Type Conversion
+3JavaScript Type Conversion:
 JavaScript variables can be converted to a new variable and another data type:
-
+'''
 By the use of a JavaScript function
 Automatically by JavaScript itself
 Converting Strings to Numbers
