@@ -1,4 +1,4 @@
-JavaScript Bitwise Operators
+#JavaScript Bitwise Operators:
 Operator	Name	Description
 &	AND	Sets each bit to 1 if both bits are 1
 |	OR	Sets each bit to 1 if one of two bits is 1
