@@ -38,12 +38,12 @@ The data type of a variable that has not been assigned a value is also undefined
 
      The typeof operator can return one of these primitive types:
 
-string
-number
-boolean
-undefined
+#string:
+#number:
+#boolean:
+#undefined:
   
-------Complex Data
+#Complex Data:
 The typeof operator can return one of two complex types:
 
 function
