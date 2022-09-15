@@ -5,16 +5,6 @@ Converting Numbers to Dates
 Converting Booleans to Numbers
 Converting Numbers to Booleans:
 
-
-
-
-
-
-
-
-
-
-
 3JavaScript Type Conversion:
 JavaScript variables can be converted to a new variable and another data type:
 '''
